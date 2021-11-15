@@ -31,6 +31,10 @@ main {
     text-align: center;
 }
 
+img {
+  width: 100%;
+}
+
 footer {
     background-color: lightpink;
 }
@@ -69,4 +73,23 @@ footer {
   
   .topnav h1 {
       color: white;
+  }
+
+  @media only screen and (min-width: 700px) {
+   
+    .container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .container > div { 
+      width: 50%;
+  
+    }
+
+    main {
+      padding: 0%;
+    }
+    
   }
