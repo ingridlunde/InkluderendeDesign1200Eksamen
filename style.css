@@ -20,7 +20,8 @@ nav {
 /* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp   For mobil-meny */
 
 main {
-    background-color: lightseagreen;
+    padding-top: 1rem;
+    background-color: aqua;
 }
 
 .container {
@@ -35,3 +36,38 @@ main {
 footer {
     background-color: lightpink;
 }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: lightsalmon;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav h1 {
+      color: white;
+  }
