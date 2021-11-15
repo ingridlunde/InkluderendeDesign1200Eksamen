@@ -20,6 +20,7 @@ nav {
 /* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp   For mobil-meny */
 
 main {
+    margin-top: 1rem;
     background-color: aqua;
 }
 
