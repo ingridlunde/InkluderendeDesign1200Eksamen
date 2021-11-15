@@ -20,7 +20,7 @@ nav {
 /* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp   For mobil-meny */
 
 main {
-    background-color: lightseagreen;
+    background-color: aqua;
 }
 
 .container {
@@ -67,6 +67,6 @@ footer {
     color: black;
   }
   
-  .topnav h1{
+  .topnav h1 {
       color: white;
   }
