@@ -103,21 +103,24 @@ footer {
 
   .FB1 {
     text-align: center;
-    background:lightgray;
+    background:#D9D8D5;
     width:100%;
     height: 2vw;
+    padding-bottom: 4em;
 }
 
 .FB2 { 
     text-align: center;
-    background:lightgray;
+    background:#D9D8D5;
     width:100%;
     height: 2vw;
+    padding-bottom: 1em;
+    padding-top: 2em;
 }
 
 .FB3 {
     text-align: center;
-    background:lightgray;
+    background:#D9D8D5;
     width:100%;
     height: 2vw;
     padding-top: 5em;
@@ -185,18 +188,18 @@ footer {
     
   
   .FB1 {
-    padding-top: 2em;
+    padding-top: 1em;
     width:100%;
   }
   
   .FB2 {
-    padding-top: 2em;
+    padding-bottom: 5em;
     float:left;
     width:50%;
   }
   
   .FB3 {
-    padding-top: 2em;
+    padding-bottom: 5em;
     float: left;
     width:50%;
   }
