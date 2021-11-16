@@ -173,7 +173,7 @@ footer {
   }
     
   .topnav #myLinks {
-      display: inline-block; /* Viser menyknappene på større skjerm */
+      display: flex; /* Viser menyknappene på større skjerm */
   }
   .topnav #myLinks a {
     width: 100%; /* Knappene fyller hele bredden */
