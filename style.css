@@ -89,6 +89,7 @@ img {
     flex-direction: column;
     align-items: center;
     background-color: #333;
+    flex-wrap: wrap;
   }
   
   .FooterBox li, h2 {
@@ -101,6 +102,13 @@ img {
   
   .FooterBox a {
     color: aqua;
+  }
+
+  .FooterBoxB {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #333;
   }
 
 @media only screen and (min-width: 700px) {
