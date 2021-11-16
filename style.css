@@ -1,26 +1,46 @@
+
+ /* treng body color?*/
 body {
-    background-color: lightgray;
+    
     margin: 0;
 }
 
 header > div {
-    background-color: wheat;
+    background-color: #D9D8D5;
+    
 
 }
+/* Legge inn egen div/id for oversrkift eller skal jeg bruke h1? */
+
 
 h1 {
     text-align: center;
+    color: #772023;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    
+}
+
+/* blir det riktig å plassere denne her? */
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: lightgreen;
+    background-color: #D9D8D5;
     text-align: center;
+    color: #92494d;
+    margin: 0;
+    margin-top: 5;
 }
 
 /* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp   For mobil-meny */
 
 main {
-    background-color: lightseagreen;
+    background-color: #f5f5f2;
+    margin: 0;
 }
 
 .container {
@@ -33,5 +53,8 @@ main {
 }
 
 footer {
-    background-color: lightpink;
+    background-color: #D9D8D5;
+    
 }
+/* legge inn egen div for tekstfarge i footer og meny?*/
+/*Denne fargen #772023*/
