@@ -17,7 +17,7 @@ header > div {
 h1 {
     text-align: center;
     color: #772023;
-    font-size: xx-large;
+    font-size: 50px;
     
 }
 
@@ -79,7 +79,7 @@ footer {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     display: block;
   }
   
@@ -177,7 +177,7 @@ footer {
   }
   .topnav #myLinks a {
     width: 100%; /* Knappene fyller hele bredden */
-    text-align: center; /*Tekst i midten av menyknappene */
+    text-align: center; /* Tekst i midten av menyknappene */
   }
 
   .topnav a.icon {
