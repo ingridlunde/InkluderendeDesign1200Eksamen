@@ -160,7 +160,6 @@ footer {
   }
   
   .container > div { 
-    border: 1px black solid;
     width: 50%;
     flex-basis: content;
     display: inline-block;
