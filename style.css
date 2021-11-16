@@ -1,48 +1,30 @@
 
- /* treng body color?*/
 body {
-    background-color: #f5f5f2;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
-header > div {
-    background-color: #D9D8D5;
-    
-
-}
 /* Legge inn egen div/id for oversrkift eller skal jeg bruke h1? */
-
 
 h1 {
     text-align: center;
-    color: #772023;
-    font-size: 50px;
-    
+    font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
 }
 
-/* blir det riktig å plassere denne her? */
-/* Fargene overkjøres - rydde i dette og ta nye screenshots*/ 
-
-p {
-    color: black;
-    font-size: 16px;
-}
-
-nav {
-    background-color: #D9D8D5;
+/* nav {                      Hele denne gjør ingenting.
     text-align: center;
-    color: #92494d;
     margin: 0;
     margin-top: 5;
-  ;
    }
+*/
 
-main {
+/* main {                     Denne gjør heller ingenting
     background-color: #f5f5f2;
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 1rem;        Denne ser litt rar ut på mobil 
 }
+*/
 
 .container {
     display: flex;
@@ -57,10 +39,10 @@ img {
   width: 100%;
 }
 
-footer {
+/* footer {                 Denne gjør ingenting
     background-color:#D9D8D5;
-    
 }
+*/
 
 /* legge inn egen div for tekstfarge i footer og meny?*/
 /*Denne fargen #772023*/
@@ -81,7 +63,7 @@ footer {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.6em;
     display: block;
   }
   
@@ -127,9 +109,6 @@ footer {
     padding-top: 5em;
 }
 
-.footerM {
-
-}
 
 .FBM1 {
     text-align: center;
@@ -168,15 +147,13 @@ footer {
     display: inline-block;
 
   }
-  main {
-    padding: 0%; /* Bildet fyller hele div-boksen */
-  }
+  
   img {
     display: block; /* Bildet fyller hele div-boksen */
   }
     
   .topnav #myLinks {
-      display: flex; /* Viser menyknappene på større skjerm */
+    display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobilstor skjerm */
   }
   .topnav #myLinks a {
     width: 100%; /* Knappene fyller hele bredden */
