@@ -207,5 +207,6 @@ footer {
 
   :focus {
     background-color: #D9D8D5;
+    color: black!important;
 }
 }
