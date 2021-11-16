@@ -1,25 +1,46 @@
+
+ /* treng body color?*/
 body {
-    background-color: lightgray;
+    
     margin: 0;
 }
 
 header > div {
-    background-color: wheat;
+    background-color: #D9D8D5;
+    
 
 }
+/* Legge inn egen div/id for oversrkift eller skal jeg bruke h1? */
+
 
 h1 {
     text-align: center;
+    color: #772023;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    
+}
+
+/* blir det riktig å plassere denne her? */
+/* Fargene overkjøres - rydde i dette og ta nye screenshots*/ 
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: lightgreen;
+    background-color: #D9D8D5;
     text-align: center;
+    color: #92494d;
+    margin: 0;
+    margin-top: 5;
 }
 
 main {
+    background-color: #f5f5f2;
+    margin: 0;
     padding-top: 1rem;
-    background-color: aqua;
 }
 
 .container {
@@ -36,8 +57,13 @@ img {
 }
 
 footer {
-    background-color: lightpink;
+    background-color: #D9D8D5;
+    
 }
+
+/* legge inn egen div for tekstfarge i footer og meny?*/
+/*Denne fargen #772023*/
+
 
 /*Nedtrykks meny mobil*/
   .topnav {
@@ -98,5 +124,4 @@ footer {
     img {
       display: block; /* Bildet fyller hele div-boksen */
     }
-    
   }
