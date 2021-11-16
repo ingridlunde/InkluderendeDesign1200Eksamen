@@ -101,36 +101,7 @@ footer {
       color: white;
   }
 
-  @media only screen and (min-width: 700px) {
-
-    .container {
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .container > div { 
-      border: 1px black solid;
-      width: 50%;
-      flex-basis: content;
-      display: inline-block;
-  
-    }
-
-    main {
-      padding: 0%; /* Bildet fyller hele div-boksen */
-    }
-
-    img {
-      display: block; /* Bildet fyller hele div-boksen */
-    }
-    
-  }
-hr {
-    color: lightgreen;
-}
-
-.FB1 {oid(0);" class="icon" onclick="myFunct
+  .FB1 {
     text-align: center;
     background:lightgray;
     width:100%;
@@ -178,34 +149,32 @@ hr {
     padding-top: 5em;
 }
 
-@media only screen and (min-width: 601px) {
+  @media only screen and (min-width: 700px) {
+
+    .container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
     
-    .FB1 {
-        padding-top: 2em;
-        width:100%;
+    .container > div { 
+      border: 1px black solid;
+      width: 50%;
+      flex-basis: content;
+      display: inline-block;
+  
     }
 
-    .FB2 {
-        padding-top: 2em;
-        float:left;
-        width:50%;
+    main {
+      padding: 0%; /* Bildet fyller hele div-boksen */
     }
 
-    .FB3 {
-        padding-top: 2em;
-        float: left;
-        width:50%;
+    img {
+      display: block; /* Bildet fyller hele div-boksen */
     }
-}
-
-@media only screen and (min-width: 961px) {
     
-    .FB1 {
-        padding-top: 4vh;
-    }
-
-    .FB2 {
-        padding-top: 4vh;
-    }
-}
   }
+hr {
+    color: lightgreen;
+}
+}
