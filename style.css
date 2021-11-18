@@ -93,10 +93,13 @@ img {
     align-items: center;
     background-color: #333;
     flex-wrap: wrap;
+    list-style: none;
   }
   
   .FooterBox li {
     color: white;
+    align-items: center;
+    list-style: none;
   }
 
   .FooterBox h2 {
@@ -107,6 +110,11 @@ img {
   .FooterBox a {
     color: aqua;
   }
+
+  .Snarveier {
+    margin-left: -10.5rem;    
+  }
+  
 
   .FooterBoxB {
     display: flex;
