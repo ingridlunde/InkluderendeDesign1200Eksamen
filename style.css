@@ -115,9 +115,11 @@ img {
     background-color: #333;
   }
 
-  #posten {
-    text-align: left;
-  }
+ #tekstboks {
+   padding: 20px; 
+   margin: 10px;
+
+ }
 
 @media only screen and (min-width: 700px) {
 
