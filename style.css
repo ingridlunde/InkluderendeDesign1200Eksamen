@@ -15,7 +15,7 @@ h1 {
 h2 { /* blir hvit, selv om denne er svart? */
   text-align: center;
   font-size: 2em;
-  color: black;
+  
 }
 
 /* nav {                      Hele denne gjør ingenting.
@@ -95,12 +95,13 @@ img {
     flex-wrap: wrap;
   }
   
-  .FooterBox li, h2 {
+  .FooterBox li {
     color: white;
   }
 
   .FooterBox h2 {
     padding-left: 2rem;
+    color: white;
   }
   
   .FooterBox a {
@@ -114,9 +115,11 @@ img {
     background-color: #333;
   }
 
-  #posten {
-    text-align: left;
-  }
+ .tekstboks {
+   padding: 20px; 
+   margin: 10px;
+
+ }
 
 @media only screen and (min-width: 700px) {
 
@@ -150,20 +153,27 @@ img {
   .topnav a.icon {
     display: none; /* Fjerner menyknappen på større skjerm */
     }
+
+  hr {
+    color: red;
+    margin-top: -0.05rem;
+  }  
     
   .FooterBox {
     background: #333;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+    margin-top: -0.5rem;
+    flex-wrap: nowrap;
   }
 
   .FooterBox h2 {
-    padding-left: 2rem;
+    padding-right: 10rem;
   }
 
   .FooterBox a {
-    padding-right: 2rem;
+    margin-right: 3rem;
   }
 
   :focus {
