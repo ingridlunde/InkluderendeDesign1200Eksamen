@@ -95,12 +95,13 @@ img {
     flex-wrap: wrap;
   }
   
-  .FooterBox li, h2 {
+  .FooterBox li {
     color: white;
   }
 
   .FooterBox h2 {
     padding-left: 2rem;
+    color: white;
   }
   
   .FooterBox a {
