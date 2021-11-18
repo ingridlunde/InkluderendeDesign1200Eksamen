@@ -1,40 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Morroside</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Overskrift</h1>
-        <footer id="footer"> 
-            <div class="FooterBoxM">
-                <div>
-                    <h2>Noe 1</h2>
-                    <ul>
-                        <li>liste element1</li>
-                        <li>liste element2</li>
-                    </ul>
+<html>
+
+<head>
+	<title>Morroside</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Prosjekt innlevering(CSS).css">
+</head>
+
+<style>
+    body{
+	background-color: #DDDDDD;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.innpakning{
+	width: 100%;
+	background-color: red;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.topptekst{
+	display: flex;
+	flex-basis: 100%;
+	/*height: ;*/
+	background-color: blue;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 20px;
+}
+#center{
+	text-align: center;
+	width: 100%;
+	font-size: 50px; 
+}
+
+.meny{
+	width: 25%;
+	background-color: green;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	height: auto;
+	order: 2;
+	flex-direction: row;
+	border-radius: 10px;
+	font-size: 25px;
+}
+
+.meny ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+}
+/*
+.meny ul li{
+	display: ;
+}
+*/
+.meny ul a{
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: blue;
+	/*border-radius: ;*/
+	font-weight: bold;
+	text-decoration: none;
+}
+.meny ul a:hover{
+	background-color: red;
+	color: blue;
+}
+
+.menyInnhold{
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+
+.innhold {
+	background-color: blue;
+	padding: 5px;
+	margin: 5px;
+	height: auto;
+	text-align: left;
+	flex: 1;
+	order: 3;
+	/*width: ;*/
+	flex-direction: row;
+	font-size: 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+.bunntekst{
+	height: 50px;
+	background-color: blue;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	flex: 1;
+	order: 4;
+	border-radius: 20px;
+}
+
+.bunntekst ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+}
+.bunntekst ul li{
+	display: inline;
+}
+.bunntekst ul li{
+	padding: 10px 30px;
+	color: white;
+	background-color: green;
+	border-radius: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+</style>
+
+<body>
+	<div class="innpakning">
+
+		<div class="topptekst">
+			<h1 id="center">Morroside</h1>
+	    </div>
+
+	    <div class="menyInnhold">
+	    	<div class="meny">
+	    	 <ul>
+	    		<li><a href="index.html">Hjem</a></li>
+	    		<li><a href="refleksjoner.html">Refleksjoner</a></li>
+	    		<li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+	    		<li><a href="informasjon.html">Informasjon</a></li>
+	    		<li><a href="morroside.html">Morroside</a></li>
+                <li><a href="https://www.oslomet.no">OsloMet</a></li>
+                <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                <li><a href="https://validator.w3.org">W3C</a></li>
+                <li><a href="https://github.com">GitHub</a></li>
+	    	 </ul>
+	        </div>
+
+
+	        <div class="innhold">
+	        	<div id="myDIV">
+	        	<h2>Overskrift</h2>
+                <p>Tekst</p>
+                <h3>Underoverskrift</h3>
+                <p>Tekst</p>
+                <h2>OVerskrift 2</h2>
+                <p>Tekst</p>
+                <h2>Overskrift 3</h2>
+                <p>Tekst</p>
                 </div>
-                <div>
-                    <h2>Noe mere</h2>
-                    <ul>
-                        <li>liste element3</li>
-                        <li>liste element4</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#Top">Top</a></li>
-                        <li><a href="index.html">Hjem</a></li>
-                        <li><a href="informasjon.html">Informasjon</a></li>
-                        <li><a href="refleksjoner.html">Refleksjoner</a></li>
-                        <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </body>
+		    </div> 
+
+        </div>
+
+	    <div class="bunntekst">
+			<ul>
+				<li>S123456</li>
+				<li>S123456</li>
+                <li>DATA 1200</li>
+                <li>Høst 2021</li>
+				<li>S123456</li>
+				<li>S123456</li>
+			</ul>
+         </div>
+
+	</div> <!--innpakning-->
+</body>
 </html>
