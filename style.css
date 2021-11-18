@@ -15,7 +15,7 @@ h1 {
 h2 { /* blir hvit, selv om denne er svart? */
   text-align: center;
   font-size: 2em;
-  color: black;
+  
 }
 
 /* nav {                      Hele denne gjør ingenting.
