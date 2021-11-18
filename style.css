@@ -12,6 +12,12 @@ h1 {
     font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
 }
 
+h2 { /* blir hvit, selv om denne er svart? */
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
 /* nav {                      Hele denne gjør ingenting.
     text-align: center;
     margin: 0;
@@ -106,6 +112,10 @@ img {
     flex-direction: row-reverse;
     align-items: center;
     background-color: #333;
+  }
+
+  #posten {
+    text-align: left;
   }
 
 @media only screen and (min-width: 700px) {
