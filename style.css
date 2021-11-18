@@ -116,9 +116,7 @@ img {
   }
 
  .tekstboks {
-   padding: 20px; 
-   margin: 10px;
-
+   margin: 20px;
  }
 
 @media only screen and (min-width: 700px) {
@@ -126,16 +124,14 @@ img {
   .container {
     flex-direction: row;
     align-items: center;
-    align-items: stretch;
-    justify-content: center;
   }
   
-  .container > div { 
-    width: 100%;
-    height: 100%;
-    flex-basis: content;
-    display: inline-block;
-    align-items: stretch;
+  .bildeboks {
+    flex: 1;
+  }
+
+  .tekstboks {
+    flex: 1;
   }
   
   img {
