@@ -165,14 +165,15 @@ img {
     justify-content: center;
     justify-content: space-between;
     margin-top: -0.5rem;
+    flex-wrap: nowrap;
   }
 
   .FooterBox h2 {
-    padding-left: 2rem;
+    padding-right: 10rem;
   }
 
   .FooterBox a {
-    padding-right: 2rem;
+    margin-right: 3rem;
   }
 
   :focus {
