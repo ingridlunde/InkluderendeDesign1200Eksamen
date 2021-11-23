@@ -14,7 +14,7 @@ body {
 h1 {
     font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
     color: white;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 h2 {
@@ -96,16 +96,22 @@ img {
     list-style: none;
     padding-left: 0;
   }
-
   
   .footerContainer h2 {
     color: white;
   }
   
   .footerContainer a {
-    color: aqua;
+    color: white;
+    font-size: 18px;
   }
 
+  .footerContainer a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+  }
+  
   /*
   .Snarveier {
     margin-left: -9rem;
