@@ -8,7 +8,7 @@ Tilgjengelighet -
 - Chrome viser tab - hvordan få det til med Safari 
 - meny nerdest på siden 
 - border rundt knappene 
-- 
+- Valgt language - norsk, f.eks for søkemotorer
 
 
 Referanser 

@@ -21,7 +21,7 @@ h2 {
   font-size: 2em;
 }
 
-/* Header */
+/* Header */        /* Endret topnav til headerContainer */
 
 .headerContainer {
   overflow: hidden;
@@ -59,7 +59,7 @@ h2 {
   color: black;
 }
 
-/* Main */
+/* Main */          /* Endret container til mainContainer */
 
 .mainContainer {
     display: flex;
@@ -78,7 +78,7 @@ img {
   background-color: white;
 }
 
-/* Footer */
+/* Footer */              /* Endret footerBox til footerContainer */
 
   .footerContainer {
     display: flex;
@@ -174,15 +174,5 @@ img {
   .footerBox1, .footerBox2, .footerBox3 {
     flex: 1;
   }
-
-/*
-  .FooterBox h2 {
-    padding-right: 10rem;
-  }
-
-  .FooterBox a {
-    margin-right: 3rem;
-  }
-*/
 
 }
