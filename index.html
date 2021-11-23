@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
     <header>
         <div>
-            <div class="topnav">
-                <a href="#main">Hopp til innhold</a>
-                <h1>Oslo Met studentene</h1>
+            <div class="headerContainer">
+                <a class="hoppKnapp" href="#main">Hopp til innhold</a>
+                <h1>OsloMet-studentene</h1>
                 <div id="myLinks">
                     <a href="index.html">Hjem</a>
                     <a href="refleksjoner.html">Refleksjoner</a>
@@ -27,25 +28,26 @@
               </div>
         </div>
     </header>
+
     <main id="main">
-        <div class="container">
+        <div class="mainContainer">
             <div class="bildeboks">
                 <img src="bilder/bok321.jpg" alt="Bilde av en bok">
             </div>
             <div class="tekstboks">
                 <h2>Velkommen til hjemmesiden vår</h2>     <!-- Tror vi bør bruke så lite br som mulig-->
                     
-                <p>Vi er fire studenter som skal vise deg hvordan det er å studere ved Oslo Met. 
+                <p>Vi er fire studenter som skal vise deg hvordan det er å studere ved OsloMet. 
                 På denne siden vil du finne litt av arbeidet vi har gjort dette halvåret.
                 Husk å sjekk ut morrosiden før du forlater oss. 
                 </p>
             </div>
         </div>
     </main>
-    <hr>
+    
     <footer id="footer"> 
-        <div class="FooterBox">
-            <div>
+        <div class="footerContainer">
+            <div class="footerBox1">
                 <h2>Kontakt oss</h2>
                 <ul>
                     <li>TLF: 22355020</li>
@@ -53,7 +55,7 @@
                     <li>E-Mail: <a href="h.j@omet.no"> Ola.nordmann@oslomet.no</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footerBox2">
                 <h2>Har du glemt noe?</h2>
                 <ul>
                     <li>Gi oss en A?</li>
@@ -61,7 +63,7 @@
                     <li>Bestille pizza?</li>
                 </ul>
             </div>
-            <div class="Snarveier">
+            <div class="footerBox3">
                 <ul>
                     <li><a href="#Top">Top</a></li>
                     <li><a href="refleksjoner.html">Refleksjoner</a></li>
@@ -73,6 +75,7 @@
         </div>
     </footer>
 </body>
+
     <script>
         function myFunction() {
           var x = document.getElementById("myLinks");
@@ -83,4 +86,5 @@
           }
         }
         </script>
+
 </html>
