@@ -1,93 +1,86 @@
+/* Generelt */
+
+html {
+  background-color: #333;
+  text-align: center;      /* Foreslår denne for å gjøre koden enklere */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+  margin: 0;  /* Fungerer ikke på samme måte om den legges under html */
 }
-
-/* Legge inn egen div/id for oversrkift eller skal jeg bruke h1? */
 
 h1 {
-    text-align: center;
     font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
+    color: white;
+    margin-top: 1rem;
 }
 
-h2 { /* blir hvit, selv om denne er svart? */
-  text-align: center;
+h2 {
   font-size: 2em;
-  
 }
 
-/* nav {                      Hele denne gjør ingenting.
-    text-align: center;
-    margin: 0;
-    margin-top: 5;
-   }
-*/
+/* Header */
 
-/* main {                     Denne gjør heller ingenting
-    background-color: #f5f5f2;
-    margin: 0;
-    padding-top: 1rem;        Denne ser litt rar ut på mobil 
+.headerContainer {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
-*/
 
-.container {
+.headerContainer #myLinks {
+  display: none;
+}
+
+.hoppKnapp {
+  width: fit-content;
+  border: 1px white solid;
+}
+
+.headerContainer a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.6em;
+  display: block;
+}
+
+.headerContainer a.icon {
+  background: lightsalmon;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.headerContainer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Main */
+
+.mainContainer {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     height: 100%;
-}
-
-.container > div {
-    text-align: center;
+    background-color: white;
 }
 
 img {
-  width: 100%;
+  width: 100%;  /* For at bildestørrelse skal bli riktig */
 }
 
-/* legge inn egen div for tekstfarge i footer og meny?*/
-/*Denne fargen #772023*/
+.tekstboks {
+  padding: 20px;
+  background-color: white;
+}
 
+/* Footer */
 
-/*Nedtrykks meny mobil*/
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.6em;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: lightsalmon;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav h1 {
-      color: white;
-  }
-
-  .FooterBox {
+  .footerContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,50 +89,70 @@ img {
     list-style: none;
   }
   
-  .FooterBox li {
+  
+  .footerContainer ul {
     color: white;
     align-items: center;
     list-style: none;
+    padding-left: 0;
   }
 
-  .FooterBox h2 {
-    padding-left: 2rem;
+  
+  .footerContainer h2 {
     color: white;
   }
   
-  .FooterBox a {
+  .footerContainer a {
     color: aqua;
   }
 
+  /*
   .Snarveier {
     margin-left: -9rem;
     margin-top: 1rem;
   }
-  
+  */
 
-  .FooterBoxB {
+  /*
+  .FooterBoxB {                   Denne gjør ingenting, finner ingen footerboxB i html-koden
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     background-color: #333;
   }
+  */
 
- .tekstboks {
-   margin: 20px;
- }
 
 @media only screen and (min-width: 700px) {
 
-  .container {
+  /* Generelt */
+
+  :focus {
+    background-color: #D9D8D5;
+    color: black!important;
+  }
+
+  /* Header */
+
+  .headerContainer #myLinks {
+    display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobil-stor skjerm */
+  }
+  .headerContainer #myLinks a {
+    width: 100%; /* Knappene fyller hele bredden */
+  }
+
+  .headerContainer a.icon {
+    display: none; /* Fjerner menyknappen på større skjerm */
+    }
+
+  /* Main */
+
+  .mainContainer {
     flex-direction: row;
     align-items: center;
   }
   
-  .bildeboks {
-    flex: 1;
-  }
-
-  .tekstboks {
+  .bildeboks, .tekstboks {
     flex: 1;
   }
   
@@ -147,32 +160,22 @@ img {
     display: block; /* Bildet fyller hele div-boksen */
   }
     
-  .topnav #myLinks {
-    display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobilstor skjerm */
-  }
-  .topnav #myLinks a {
-    width: 100%; /* Knappene fyller hele bredden */
-    text-align: center; /* Tekst i midten av menyknappene */
-  }
-
-  .topnav a.icon {
-    display: none; /* Fjerner menyknappen på større skjerm */
-    }
-
-  hr {
-    color: red;
-    margin-top: -0.05rem;
-  }  
+  /* Footer */
     
-  .FooterBox {
+  .footerContainer {
     background: #333;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-top: -0.5rem;
     flex-wrap: nowrap;
+    width: 100%;
   }
 
+  .footerBox1, .footerBox2, .footerBox3 {
+    flex: 1;
+  }
+
+/*
   .FooterBox h2 {
     padding-right: 10rem;
   }
@@ -180,9 +183,6 @@ img {
   .FooterBox a {
     margin-right: 3rem;
   }
+*/
 
-  :focus {
-    background-color: #D9D8D5;
-    color: black!important;
-  }
 }
