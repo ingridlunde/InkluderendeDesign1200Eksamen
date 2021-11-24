@@ -4,6 +4,7 @@
 	<title>Moroside</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Prosjekt innlevering(CSS).css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <style>
     body{
@@ -117,6 +118,7 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+.mySlides {display:none;}
 </style>
 <body>
 	<div class="innpakning">
@@ -138,19 +140,29 @@
 	    	 </ul>
 	        </div>
 	        <div class="innhold">
-	        	<div id="myDIV">
-	        	<h2>Overskrift</h2>
-                <p>Tekst</p>
-                <h3>Underoverskrift</h3>
-                <p>Tekst</p>
-                <h2>OVerskrift 2</h2>
-                <p>Tekst</p>
-                <h2>Overskrift 3</h2>
-                <p>Tekst</p>
-                </div>
-		    </div> 
+					<h2 class="w3-center">Manual Slideshow</h2>
+					<div  class="w3-content w3-display-container">
+					  <img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde2.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde3.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde4.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde5.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde6.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde7.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde8.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde9.jpg" style="width:100%">
+					  <img class="mySlides" src="bilder/bilde10.jpg" style="width:100%">
+					
+					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<div>
+						<h1>lsdkjf</h1>
+						<p>skdlfjls</p>
+						<p>sdkjfhsdlkfjsfdjsdf</p>
+					</div>
         </div>
-	    <div class="bunntekst">
+		<div class="bunntekst">
 			<ul>
 				<li>S123456</li>
 				<li>S123456</li>
@@ -162,4 +174,23 @@
          </div>
 	</div> <!--innpakning-->
 </body>
+<script>
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 </html>
