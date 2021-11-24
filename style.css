@@ -111,6 +111,7 @@ img {
 }
 .footerBox3 li {
   padding-top: 1em;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 700px) {
