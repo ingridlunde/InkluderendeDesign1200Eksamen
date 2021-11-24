@@ -22,6 +22,25 @@ h2 {
   font-size: 2em;
 }
 
+p {
+  line-height: 2.4em;
+  margin: 3em;
+}
+
+a {
+  color: #2969FF
+}
+
+a:visited {
+color: #E42121
+}
+
+a:hover{
+color: #E42121;
+background-color: rgb(226, 225, 225);
+boarder: 1em;
+
+}
 /* Header */        /* Endret topnav til headerContainer */
 
 .headerContainer {
@@ -74,6 +93,21 @@ img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
+
+/* Skal eg lage en egen id for å plassere bilde på informasjon riktig? */
+
+#bildeinformasjon {  /*er det en bedre måte å løse dette for å få bildet med litt rom til margin. 
+  Fikk ikke til å plassere det på toppen */
+  text-align: center;
+  flex: 1;
+  margin: 2em;
+}
+  
+.bilderefleksjoner { /* Er det en bedre måte å ordne dette? */
+flex: 1;
+text-align: center;
+} 
+
 
 .tekstboks {
   padding: 20px;
