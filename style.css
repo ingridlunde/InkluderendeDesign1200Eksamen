@@ -12,9 +12,10 @@ body {
 }
 
 h1 {
-    font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
-    color: white;
-    margin-top: 0.5em;
+  font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
+  color: white;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -62,15 +63,16 @@ h2 {
 /* Main */          /* Endret container til mainContainer */
 
 .mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    height: 100%;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  background-color: white;
 }
 
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
+  display: block; /* Bildet fyller hele div-boksen */
 }
 
 .tekstboks {
@@ -80,105 +82,77 @@ img {
 
 /* Footer */              /* Endret footerBox til footerContainer */
 
-  .footerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    flex-wrap: wrap;
-    list-style: none;
-  }
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   
   
-  .footerContainer ul {
-    color: white;
-    align-items: center;
-    list-style: none;
-    padding-left: 0;
-  }
+.footerContainer ul {
+  color: white;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
   
-  .footerContainer h2 {
-    color: white;
-  }
+.footerContainer h2 {
+  color: white;
+}
   
-  .footerContainer a {
-    color: white;
-    font-size: 18px;
-  }
+.footerContainer a {
+  color: white;
+  font-size: 1.1em;
+}
 
-  .footerContainer a:hover {
-    background-color: #ddd;
-    color: black;
-    text-decoration: none;
-  }
-  
-  /*
-  .Snarveier {
-    margin-left: -9rem;
-    margin-top: 1rem;
-  }
-  */
-
-  /*
-  .FooterBoxB {                   Denne gjør ingenting, finner ingen footerboxB i html-koden
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: #333;
-  }
-  */
-
+.footerContainer a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 700px) {
 
   /* Generelt */
 
-  :focus {
-    background-color: #D9D8D5;
-    color: black!important;
-  }
+:focus {
+  background-color: #D9D8D5;
+  color: black!important;
+}
 
   /* Header */
 
-  .headerContainer #myLinks {
-    display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobil-stor skjerm */
-  }
-  .headerContainer #myLinks a {
-    width: 100%; /* Knappene fyller hele bredden */
-  }
+.headerContainer #myLinks {
+  display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobil-stor skjerm */
+}
+  
+.headerContainer #myLinks a {
+  width: 100%; /* Knappene fyller hele bredden */
+}
 
-  .headerContainer a.icon {
-    display: none; /* Fjerner menyknappen på større skjerm */
-    }
+.headerContainer a.icon {
+  display: none; /* Fjerner menyknappen på større skjerm */
+}
 
   /* Main */
 
-  .mainContainer {
-    flex-direction: row;
-    align-items: center;
-  }
+.mainContainer {
+  flex-direction: row;
+  align-items: center;
+}
   
-  .bildeboks, .tekstboks {
-    flex: 1;
-  }
+.bildeboks, .tekstboks {
+  flex: 1;
+}
   
-  img {
-    display: block; /* Bildet fyller hele div-boksen */
-  }
-    
   /* Footer */
     
-  .footerContainer {
-    background: #333;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
+.footerContainer {
+  flex-direction: row;
+}
 
-  .footerBox1, .footerBox2, .footerBox3 {
-    flex: 1;
-  }
+.footerBox1, .footerBox2, .footerBox3 {
+  flex: 1;
+}
 
 }
