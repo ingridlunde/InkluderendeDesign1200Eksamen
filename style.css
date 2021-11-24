@@ -145,7 +145,7 @@ text-align: center;
 }
 .footerBox3 li {
   padding-top: 1em;
-  font-size: 20px;
+  font-size: 20px;      /* Vi bør ha all skriftstørrelse som em */
 }
 
 @media only screen and (min-width: 700px) {
