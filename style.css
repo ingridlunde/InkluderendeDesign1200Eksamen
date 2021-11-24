@@ -14,7 +14,8 @@ body {
 h1 {
     font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
     color: white;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
