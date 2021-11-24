@@ -19,7 +19,7 @@
                     <a href="refleksjoner.html">Refleksjoner</a>
                     <a href="tilgjengelighet.html">Tilgjengelighet</a>
                     <a href="informasjon.html">Emneinformasjon</a>
-                    <a href="morroside.html">Morroside</a>
+                    <a href="moroside.html">Moroside</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
@@ -29,12 +29,42 @@
     </header>
         
         <main id="main">
-            <div class="container">
+            <div class="mainContainer">
                 <div class="bildeboks">
-                    <img src="bilder/Bokbilde.jpeg" alt="Et bilde av bøker">
+                    <img src="/bilder/bok321.jpg" alt="En halvåpen bok">
                 </div>
                 <div class="tekstboks">
-                    <p>Velkommen til hjemmesiden vår og blablabla</p>
+                    <p>Siden oppgaven handler om å gjøre nettsiden vår mest mulig tilgjengelig for alle, er det det vi har hatt mest fokus på.
+                        Fra starten ønsket vi å lage en ren og enkel nettside, med høy kontrast mellom skrift og bakgrunn. 
+                        Derfor ble fargevalgene i hovedsak svart og hvitt.
+                        Teksttypen vi valgte ble «sans-serif» da vi synes den var mest lettlest. 
+                        Vi valgte relativt stor skriftstørrelse for å bedre leseligheten, men valgte å bruke «em»-størrelser 
+                        slik at brukene selv kan bestemme hvor stor skriften skal være. </p>
+                        
+                        <p> Vi begynte med å skrive html-koden til forsiden, deretter brukte vi css til å lage en layout vi var fornøyd med. 
+                            Så overførte vi i hovedsak samme html og css-kode til de andre sidene.
+                        HTML-koden er bygd opp av «header, main og footer» for å gjøre det oversiktlig.</p>
+                        
+                        <p>Layouten vår består av bokser, der hovedregelen er at boksene legger seg under hverandre på mobil, 
+                        mens de står ved siden av hverandre på større skjerm.
+                        I tillegg ønsket vi at den første knappen på nettsiden skulle være «Hopp til hovedinnhold», 
+                        og at det nederst på siden skulle være en knapp der man kunne hoppe opp til toppen.</p>
+                        
+                        <p>Vi lagde mobilversjonen først, og ønsket oss da en menyknapp for å få frem hovedmenyen, 
+                        slik at header ikke tok opp for mye av skjermen på mobil. Denne menyen kan man også bruke med kun tastatur.</p>
+                        
+                        <p>For å bedre navigasjonen har vi lagt til et focus-element og et hover-element der bakgrunnsfarge
+                        og skrift inverteres. Dette gjorde vi for at det skal være enklere å se hvilken knapp man er i ferd med å trykke på.
+                        Da vi var fornøyde med mobilversjonen, gikk vi videre til å lage nettsiden for full skjerm.</p>
+                        
+                        <p>Etter vi var ferdige med dette gikk vi gjennom css-koden og forsøkte å rydde opp gjenglemte- og doble tagger. 
+                        I tillegg rokerte vi om på css-koden slik at header var øverst, deretter main og til slutt footer. 
+                        Koden for mobilversjonen er skrevet først og koden for større skjermer står til slutt. 
+                        Vi endret også noen av klassenavnene for at de skulle være mest mulig selvforklarende, 
+                        slik at det blir enklere for andre å sette seg inn i koden.</p>
+                        
+                        <p>Da vi var fornøyde med hele layouten validerte vi html-koden. Her fant vi noen små feil, for eksempel tagger som var lukket to ganger. Vi gjorde også om «lang»-attributten til norsk for at det skal være bedre for skjermlesere og søkemotorer.
+                        Deretter validerte vi css-koden uten feil.</p>
                 </div>
             </div>
         </main>
@@ -46,7 +76,7 @@
                     <ul>
                         <li>TLF: 22355020</li>
                         <li>ADR: Pilestredet 35, 0166 Oslo</li>
-                        <li>E-Mail: <a href="h.j@omet.no"> Ola.nordmann@oslomet.no</a></li>
+                        <li>E-Mail: <a href="h.j@omet.no"> ola.nordmann@oslomet.no</a></li>
                     </ul>
                 </div>
                 <div class="footerBox2">
@@ -59,11 +89,12 @@
                 </div>
                 <div class="footerBox3">
                     <ul>
-                        <li><a href="#Top">Top</a></li>
+                        <li><a href="index.html">Hjem</a></li>
                         <li><a href="refleksjoner.html">Refleksjoner</a></li>
                         <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
                         <li><a href="informasjon.html">Emneinformasjon</a></li>
-                        <li><a href="morroside.html">Morroside</a></li>
+                        <li><a href="moroside.html">Moroside</a></li>
+                        <li><a href="#Top">Til toppen</a></li>
                     </ul>
                 </div>
             </div>
