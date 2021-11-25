@@ -56,7 +56,7 @@ a:hover{
   display: block;
 }
 .headerContainer a.icon {
-  background: lightsalmon;
+  background: rgb(255, 160, 122);
   display: block;
   position: absolute;
   right: 0;
@@ -101,7 +101,6 @@ img {
    margin-top: 1.5em;
    margin-bottom: 1.5em;
  }
-
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
@@ -110,7 +109,6 @@ img {
 } 
 .footerContainer ul {
   color: rgb(226, 225, 225);
-  
   align-items: center;
   list-style: none;
   padding-left: 0;
@@ -170,7 +168,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50em
- 
  }
   /* Footer */
 .footerContainer {
