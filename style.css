@@ -73,7 +73,7 @@ a:hover{
   flex-direction: column;
   align-items: stretch;
   height: 100%;
-  background-color: rgb(226, 225, 225);
+  background-color: #ffffff;
 }
 #postenLink {
   margin-top: 1.5em;
@@ -88,7 +88,7 @@ img {
 }
 .textBox {
   padding: 20px;
-  background-color: rgb(226, 225, 225);
+  background-color: #ffffff;
 }
 .textBox >p {
   text-align: left;
