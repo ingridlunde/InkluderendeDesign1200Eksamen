@@ -92,7 +92,6 @@ img {
 .textBox > .pictureBox {
   margin: 0 3em 0 3em;
 }
-
 .textBox > .pictureBox > img {
   border: 1px black solid;
 }
@@ -144,8 +143,6 @@ img {
   padding: 0.5em;
   font-size: 1.5em;  
 }
-
-
 @media only screen and (min-width: 800px) {
   /* Generelt */
 :focus {
@@ -170,7 +167,6 @@ img {
 .pictureBox, .textBox {
   flex: 1;
 }
-
 #postenPicture{
   margin-left: auto;
   margin-right: auto;

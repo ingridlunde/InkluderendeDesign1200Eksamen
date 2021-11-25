@@ -1,253 +1,245 @@
 <!DOCTYPE html>
 <html lang="no">
-<head>
-	<title>Moroside</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
-<style>
-    body{
-	background-color: black;
-	color: #fe0f9f;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-}
-.innpakning{
-	width: 100%;
-	background-color: black;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-.topptekst{
-	display: flex;
-	flex-basis: 100%;
-	/*height: ;*/
-	background-color: whitesmoke;
-	padding: 5px;
-	margin: 5px;
-	text-align: center;
-	border-radius: 20px;
-}
-#center{
-	text-align: center;
-	width: 100%;
-	font-size: 50px; 
-}
-.meny{
-	width: 25%;
-	background-color: #fe0f9f;
-	padding: 5px;
-	margin: 5px;
-	text-align: center;
-	height: auto;
-	order: 2;
-	flex-direction: row;
-	border-radius: 10px;
-	font-size: 25px;
-}
-.meny ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 15px;
-}
-/*
-.meny ul li{
-	display: ;
-}
-*/
-.meny ul a{
-	display: block;
-	padding: 10px;
-	margin: 10px;
-	color: #fe0f9f;
-	background-color: whitesmoke;
-	/*border-radius: ;*/
-	font-weight: bold;
-	text-decoration: none;
-}
-.meny ul a:hover{
-	background-color: black;
-	color: whitesmoke;
-}
-.menyInnhold{
-	flex-direction: row;
-	justify-content: space-between;
-	display: flex;
-}
-.innhold {
-	background-color: whitesmoke;
-	padding: 5px;
-	margin: 5px;
-	height: auto;
-	text-align: left;
-	flex: 1;
-	order: 3;
-	/*width: ;*/
-	flex-direction: row;
-	font-size: 20px;
-	border-radius: 10px;
-	color: #fe0f9f;
-}
-.bunntekst{
-	height: 50px;
-	background-color: whitesmoke;
-	padding: 5px;
-	margin: 5px;
-	text-align: center;
-	flex: 1;
-	order: 4;
-	border-radius: 20px;
-}
-.bunntekst ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 15px;
-}
-.bunntekst ul li{
-	display: inline;
-}
-.bunntekst ul li{
-	padding: 10px 30px;
-	color: black;
-	background-color: #fe0f9f;
-	border-radius: 20px;
-	font-weight: bold;
-	text-decoration: none;
-}
-.mySlides {display:none;}
-.float-child{
-	width: 50%;
-    float: left;
-	padding: 5px;
-}
-.beskrivelse{
-	display: inline-block;
-	margin-left: 30px;
-}
-.links{
-	color: black;
-}
-.w3-button:hover {
-    color: black!important;
-    background-color: #fe0f9f!important;
-}
-h2{
-	font-size: 40px;
-}
-h3{
-	font-size: 30px;
-	font-weight: bold;
-}
-@media only screen and (max-width:1000px) {
-	.beskrivelse{
-		margin-left: 0;
+	<head>
+		<title>Moroside</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<style>
+	    body{
+		background-color: black;
+		color: #fe0f9f;
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+	}
+	.innpakning{
+		width: 100%;
+		background-color: black;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.topptekst{
+		display: flex;
+		flex-basis: 100%;
+		/*height: ;*/
+		background-color: whitesmoke;
+		padding: 5px;
+		margin: 5px;
+		text-align: center;
+		border-radius: 20px;
+	}
+	#center{
+		text-align: center;
+		width: 100%;
+		font-size: 50px; 
 	}
 	.meny{
-		width: 30%;
-		margin: 0;
+		width: 25%;
+		background-color: #fe0f9f;
+		padding: 5px;
+		margin: 5px;
+		text-align: center;
+		height: auto;
+		order: 2;
+		flex-direction: row;
+		border-radius: 10px;
+		font-size: 25px;
 	}
-}
-</style>
-<body>
-	<!--innpakning: inneholder 3 hoved div som er stylet med flexbox-->
-	<div class="innpakning">
-
-		<!--1/3 del av nettsiden inneholder overskriften-->
-		<div class="topptekst">
-			<h1 id="center"><strong>10^3 fryd</strong></h1>
-	    </div>
-
-
-		<!--2/3 av nettsiden inneholder meny og innholdet på row-->
-	    <div class="menyInnhold">
-	    	<div class="meny">
-	    	<ul>
-	    		<li><a href="index.html">Hjem</a></li>
-	    		<li><a href="refleksjoner.html">Refleksjoner</a></li>
-	    		<li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
-	    		<li><a href="emneinformasjon.html">Emne Informasjon</a></li>
-	    		<li><a href="moroside.html">Moroside</a></li>
-				<li><a href="https://www.tusenfryd.no">Tusenfryd</a></li>
-                <li><a href="https://www.oslomet.no">OsloMet</a></li>
-                <li><a href="https://www.w3schools.com">W3Schools</a></li>
-                <li><a href="https://validator.w3.org">W3C</a></li>
-                <li><a href="https://github.com">GitHub</a></li>
-	    	</ul>
+	.meny ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 15px;
+	}
+	/*
+	.meny ul li{
+		display: ;
+	}
+	*/
+	.meny ul a{
+		display: block;
+		padding: 10px;
+		margin: 10px;
+		color: #fe0f9f;
+		background-color: whitesmoke;
+		/*border-radius: ;*/
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.meny ul a:hover{
+		background-color: black;
+		color: whitesmoke;
+	}
+	.menyInnhold{
+		flex-direction: row;
+		justify-content: space-between;
+		display: flex;
+	}
+	.innhold {
+		background-color: whitesmoke;
+		padding: 5px;
+		margin: 5px;
+		height: auto;
+		text-align: left;
+		flex: 1;
+		order: 3;
+		/*width: ;*/
+		flex-direction: row;
+		font-size: 20px;
+		border-radius: 10px;
+		color: #fe0f9f;
+	}
+	.bunntekst{
+		height: 50px;
+		background-color: whitesmoke;
+		padding: 5px;
+		margin: 5px;
+		text-align: center;
+		flex: 1;
+		order: 4;
+		border-radius: 20px;
+	}
+	.bunntekst ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 15px;
+	}
+	.bunntekst ul li{
+		display: inline;
+	}
+	.bunntekst ul li{
+		padding: 10px 30px;
+		color: black;
+		background-color: #fe0f9f;
+		border-radius: 20px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.mySlides {display:none;}
+	.float-child{
+		width: 50%;
+	    float: left;
+		padding: 5px;
+	}
+	.beskrivelse{
+		display: inline-block;
+		margin-left: 30px;
+	}
+	.links{
+		color: black;
+	}
+	.w3-button:hover {
+	    color: black!important;
+	    background-color: #fe0f9f!important;
+	}
+	h2{
+		font-size: 40px;
+	}
+	h3{
+		font-size: 30px;
+		font-weight: bold;
+	}
+	@media only screen and (max-width:1000px) {
+		.beskrivelse{
+			margin-left: 0;
+		}
+		.meny{
+			width: 30%;
+			margin: 0;
+		}
+	}
+	</style>
+	<body>
+		<!--innpakning: inneholder 3 hoved div som er stylet med flexbox-->
+		<div class="innpakning">
+			<!--1/3 del av nettsiden inneholder overskriften-->
+			<div class="topptekst">
+				<h1 id="center"><strong>10^3 fryd</strong></h1>
+		    </div>
+			<!--2/3 av nettsiden inneholder meny og innholdet på row-->
+		    <div class="menyInnhold">
+		    	<div class="meny">
+		    		<ul>
+		    			<li><a href="index.html">Hjem</a></li>
+		    			<li><a href="refleksjoner.html">Refleksjoner</a></li>
+		    			<li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+		    			<li><a href="emneinformasjon.html">Emne Informasjon</a></li>
+		    			<li><a href="moroside.html">Moroside</a></li>
+						<li><a href="https://www.tusenfryd.no">Tusenfryd</a></li>
+	            	    <li><a href="https://www.oslomet.no">OsloMet</a></li>
+	            	    <li><a href="https://www.w3schools.com">W3Schools</a></li>
+	            	    <li><a href="https://validator.w3.org">W3C</a></li>
+	            	    <li><a href="https://github.com">GitHub</a></li>
+		    		</ul>
+		        </div>
+		        <div class="innhold">
+					<h2 class="w3-center"><strong>Velkommen!</strong></h2>
+					<div class="w3-content w3-display-container">
+						<div  class="float-child">
+							<img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde2.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde3.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde4.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde5.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde6.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde7.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde8.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde9.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde10.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde11.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde12.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde13.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde14.jpg" style="width:100%">
+							<img class="mySlides" src="bilder/bilde15.jpg" style="width:100%">
+						    <img class="mySlides" src="bilder/bilde16.jpg" style="width:100%">
+							<button class="w3-button w3-#fe0f9f" onclick="plusDivs(-1)">&#10094;</button>
+							<button class="w3-button w3-#fe0f9f" onclick="plusDivs(1)">&#10095;</button>
+						</div>
+						<div class="float-child">
+							<video width="100%" height="100%" controls>
+								<source src="bilder/video.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+					</div>
+					<div class="beskrivelse"> 
+						<h3><em>Besøk oss i 2022!</em></h3>
+						<p>Vi er dessverre stengt for i år! Besøk oss gjerne i <strong>2022</strong></p>
+						<p>Vi holder oppe fra slutten av april til slutten av oktober. Sjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider" class="links">her</a></p>
+						<p>Du kan kjøpe enkeltbilett, sesongkort og billetter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter" class="links">her</a></p>
+						<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS" class="links">her</a></p>
+					</div>
+				</div>
+			</div>	
+			<div class="bunntekst">
+				<ul>
+					<li>s362069</li>
+					<li>s338231</li>
+	                <li>DATA 1200</li>
+	                <li>Høst 2021</li>
+					<li>s362062</li>
+					<li>s362051</li>
+				</ul>
 	        </div>
-
-	        <div class="innhold">
-				<h2 class="w3-center"><strong>Velkommen!</strong></h2>
-				<div class="w3-content w3-display-container">
-					<div  class="float-child">
-						<img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde2.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde3.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde4.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde5.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde6.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde7.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde8.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde9.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde10.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde11.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde12.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde13.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde14.jpg" style="width:100%">
-						<img class="mySlides" src="bilder/bilde15.jpg" style="width:100%">
-					    <img class="mySlides" src="bilder/bilde16.jpg" style="width:100%">
-						<button class="w3-button w3-#fe0f9f" onclick="plusDivs(-1)">&#10094;</button>
-						<button class="w3-button w3-#fe0f9f" onclick="plusDivs(1)">&#10095;</button>
-					</div>
-					<div class="float-child">
-						<video width="100%" height="100%" controls>
-							<source src="bilder/video.mp4" type="video/mp4">
-							Your browser does not support the video tag.
-						</video>
-					</div>
-				</div>
-
-				<div class="beskrivelse"> 
-					<h3><em>Besøk oss i 2022!</em></h3>
-					<p>Vi er dessverre stengt for i år! Besøk oss gjerne i <strong>2022</strong></p>
-					<p>Vi holder oppe fra slutten av april til slutten av oktober. Sjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider" class="links">her</a></p>
-					<p>Du kan kjøpe enkeltbilett, sesongkort og billetter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter" class="links">her</a></p>
-					<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS" class="links">her</a></p>
-				</div>
-
-			</div>
-		</div>	
-			
-		<div class="bunntekst">
-			<ul>
-				<li>s362069</li>
-				<li>s338231</li>
-                <li>DATA 1200</li>
-                <li>Høst 2021</li>
-				<li>s362062</li>
-				<li>s362051</li>
-			</ul>
-        </div>
-
-	</div> 
-</body>
-<script>
-	var slideIndex = 1;
-showDivs(slideIndex);
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+		</div> 
+	</body>
+	<script>
+		var slideIndex = 1;
+	showDivs(slideIndex);
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
 </html>
