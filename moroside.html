@@ -121,11 +121,20 @@
 .float-child{
 	width: 50%;
     float: left;
-	padding: 5px;;
+	padding: 5px;
 }
 .beskrivelse{
-	display: block;
-	width: 100%;
+	display: inline-block;
+	margin-left: 30px;
+}
+@media only screen and (max-width:1000px) {
+	.beskrivelse{
+		margin-left: 0;
+	}
+	.meny{
+		width: 30%;
+		margin: 0;
+	}
 }
 </style>
 <body>
@@ -133,7 +142,7 @@
 	<div class="innpakning">
 
 		<div class="topptekst">
-			<h1 id="center">Moroside</h1>
+			<h1 id="center">Morrrroside</h1>
 	    </div>
 
 
@@ -144,8 +153,9 @@
 	    		<li><a href="index.html">Hjem</a></li>
 	    		<li><a href="refleksjoner.html">Refleksjoner</a></li>
 	    		<li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
-	    		<li><a href="informasjon.html">Informasjon</a></li>
+	    		<li><a href="emneinformasjon.html">Emne Informasjon</a></li>
 	    		<li><a href="moroside.html">Moroside</a></li>
+				<li><a href="https://www.tusenfryd.no">Tusenfryd</a></li>
                 <li><a href="https://www.oslomet.no">OsloMet</a></li>
                 <li><a href="https://www.w3schools.com">W3Schools</a></li>
                 <li><a href="https://validator.w3.org">W3C</a></li>
@@ -178,13 +188,13 @@
 					<button class="w3-button w3-black" onclick="plusDivs(-1)">&#10094;</button>
 					<button class="w3-button w3-black" onclick="plusDivs(1)">&#10095;</button>
 				</div>
-			</div>
 
-			<div class="float-child">
-				<video width="100%" height="100%" controls>
-					<source src="bilder/video.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
+				<div class="float-child">
+					<video width="100%" height="100%" controls>
+						<source src="bilder/video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
 			</div>
 			
 			<div class="beskrivelse"> 
