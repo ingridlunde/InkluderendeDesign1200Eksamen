@@ -16,6 +16,8 @@ Slideshow på morroside: https://www.w3schools.com/w3css/w3css_slideshow.asp
 Mobile navigation meny på mobil display: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 Bildene brukt på nettsiden vår er non copyright.
-Bildet på hjem siden er hentet fra: https://pixabay.com/photos/book-pages-chapters-open-open-book-1283865/
+Bildet på hjemsiden er hentet fra: https://pixabay.com/photos/book-pages-chapters-open-open-book-1283865/
 Bildet på emneinformasjon siden er hentet fra: https://all-free-download.com/free-photos/download/mailbox_red_england_262978.html
 Bildene og videon på morrosiden er hentet fra: https://www.pexels.com
+
+
