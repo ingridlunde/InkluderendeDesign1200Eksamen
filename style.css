@@ -97,6 +97,10 @@ img {
 .textBox > .pictureBox {
   margin: 0 3em 0 3em;
 }
+
+.textBox > .pictureBox > img {
+  border: 1px black solid;
+}
  .postenLink{
    display:block;
    margin-top: 1.5em;
