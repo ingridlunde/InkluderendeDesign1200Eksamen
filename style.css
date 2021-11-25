@@ -76,18 +76,23 @@ img {
   display: block; /* Bildet fyller hele div-boksen */
 }
 
+#forsideTekst {
+  text-align: center;
+}
+
 .tekstboks {
   padding: 20px;
   background-color: white;
 }
+
 .tekstboks >p {
   text-align: left;
 }
 
-.tekstboks >img {
-margin-left: 3em;
-margin-right: 3em;
-} 
+.tekstboks > .bildeboks {
+  margin: 0 3em 0 3em;
+}
+
 
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
@@ -123,11 +128,6 @@ margin-right: 3em;
 .sc--1 a, .sc--2 a, .sc--3 a, .sc--4 a, .sc--5 a, .sc--6 a {
   padding-top: 0.5rem;
   font-size: 25px;  
-}
-
-.tekstboks > .bildeboks {
-  margin-left: 3em;
-  margin-right: 3em;
 }
 
 @media only screen and (min-width: 700px) {
