@@ -70,6 +70,12 @@ a:hover{
   height: 100%;
   background-color: white;
 }
+
+#postenLink {
+  margin-top: 1.5em;
+  margin-bottom: 130em;
+}
+
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
@@ -77,6 +83,9 @@ img {
 #forsideTekst {
   text-align: center;
 }
+
+
+
 .tekstboks {
   padding: 20px;
   background-color: white;
@@ -147,6 +156,13 @@ img {
 .bildeboks, .tekstboks {
   flex: 1;
 }  
+
+#postenBilde{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em
+ 
+ }
   /* Footer */
 .footerContainer {
   flex-direction: row;
