@@ -117,8 +117,8 @@ text-align: center;
   display: grid;
   grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
   grid-template-columns: 15rem;
-  margin-top: 0;
-  grid-row-gap: 1rem;
+  padding-top: 2rem;
+  grid-row-gap: 2rem;
 }
 .sc--1 a {
   padding-top: 0.5rem;
@@ -177,19 +177,12 @@ text-align: center;
 }
 .footerBox3 {
   display: grid;
-  grid-template-rows: 4.5rem 1.5rem 1.5rem 1.5rem;
+  grid-template-rows: 1.5rem 1.5rem 1.5rem;
   grid-template-columns: 10rem 10rem;
   grid-column-gap: 0;
   grid-row-gap: 0.7rem;
   justify-content: center;
   padding-top: 1.4rem;
-}
-.sc--0 h2 {
-  padding-top: 0;
-  font-size: 2em;
-}
-.sc--00 {
-  font-size: 0;
 }
 .sc--1 a {
   padding-top: 0;
