@@ -7,15 +7,15 @@
 </head>
 <style>
     body{
-	background-color: #DDDDDD;
-	color: white;
+	background-color: black;
+	color: #fe0f9f;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
 }
 .innpakning{
 	width: 100%;
-	background-color: red;
+	background-color: black;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -25,7 +25,7 @@
 	display: flex;
 	flex-basis: 100%;
 	/*height: ;*/
-	background-color: blue;
+	background-color: whitesmoke;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
@@ -38,7 +38,7 @@
 }
 .meny{
 	width: 25%;
-	background-color: green;
+	background-color: #fe0f9f;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
@@ -62,15 +62,15 @@
 	display: block;
 	padding: 10px;
 	margin: 10px;
-	color: white;
-	background-color: blue;
+	color: #fe0f9f;
+	background-color: whitesmoke;
 	/*border-radius: ;*/
 	font-weight: bold;
 	text-decoration: none;
 }
 .meny ul a:hover{
-	background-color: red;
-	color: blue;
+	background-color: black;
+	color: whitesmoke;
 }
 .menyInnhold{
 	flex-direction: row;
@@ -78,7 +78,7 @@
 	display: flex;
 }
 .innhold {
-	background-color: blue;
+	background-color: whitesmoke;
 	padding: 5px;
 	margin: 5px;
 	height: auto;
@@ -89,11 +89,11 @@
 	flex-direction: row;
 	font-size: 20px;
 	border-radius: 10px;
-	color: white;
+	color: #fe0f9f;
 }
 .bunntekst{
 	height: 50px;
-	background-color: blue;
+	background-color: whitesmoke;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
@@ -111,8 +111,8 @@
 }
 .bunntekst ul li{
 	padding: 10px 30px;
-	color: white;
-	background-color: green;
+	color: black;
+	background-color: #fe0f9f;
 	border-radius: 20px;
 	font-weight: bold;
 	text-decoration: none;
@@ -127,6 +127,13 @@
 	display: inline-block;
 	margin-left: 30px;
 }
+.links{
+	color: black;
+}
+.w3-button:hover {
+    color: black!important;
+    background-color: #fe0f9f!important;
+}
 @media only screen and (max-width:1000px) {
 	.beskrivelse{
 		margin-left: 0;
@@ -140,7 +147,7 @@
 <body>
 	<div class="innpakning">
 		<div class="topptekst">
-			<h1 id="center">Morrrroside</h1>
+			<h1 id="center">10^3 fryd</h1>
 	    </div>
 	    <div class="menyInnhold">
 	    	<div class="meny">
@@ -158,7 +165,7 @@
 	    	</ul>
 	        </div>
 	        <div class="innhold">
-			<h2 class="w3-center">Tusenfryd</h2>
+			<h2 class="w3-center">Velkommen</h2>
 			<div class="w3-content w3-display-container">
 				<div  class="float-child">
 					<img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
@@ -177,8 +184,8 @@
 					<img class="mySlides" src="bilder/bilde14.jpg" style="width:100%">
 					<img class="mySlides" src="bilder/bilde15.jpg" style="width:100%">
 				    <img class="mySlides" src="bilder/bilde16.jpg" style="width:100%">
-					<button class="w3-button w3-black" onclick="plusDivs(-1)">&#10094;</button>
-					<button class="w3-button w3-black" onclick="plusDivs(1)">&#10095;</button>
+					<button class="w3-button w3-#fe0f9f" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-#fe0f9f" onclick="plusDivs(1)">&#10095;</button>
 				</div>
 				<div class="float-child">
 					<video width="100%" height="100%" controls>
@@ -190,20 +197,20 @@
 			<div class="beskrivelse"> 
 				<h2>Besøk oss i 2022!</h2>
 				<p>Vi er desverre stengt for i år! Besøk oss gjerne i <strong>2022</strong></p>
-				<p>Vi holder oppe fra slutten av april til slutten av oktober. Skjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider">her</a></p>
-				<p>Du kan kjøpe enkeltbilett, sessongkort og biletter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter">her</a></p>
-				<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS">her</a></p>
+				<p>Vi holder oppe fra slutten av april til slutten av oktober. Skjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider" class="links">her</a></p>
+				<p>Du kan kjøpe enkeltbilett, sessongkort og biletter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter" class="links">her</a></p>
+				<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS" class="links">her</a></p>
 			</div>
 			</div>		
         </div>
 		<div class="bunntekst">
 			<ul>
-				<li>S123456</li>
-				<li>S123456</li>
+				<li>s362069</li>
+				<li>s338231</li>
                 <li>DATA 1200</li>
                 <li>Høst 2021</li>
-				<li>S123456</li>
-				<li>S123456</li>
+				<li>s362062</li>
+				<li>s362051</li>
 			</ul>
         </div>
 	</div> <!--innpakning-->
