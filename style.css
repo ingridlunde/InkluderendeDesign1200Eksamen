@@ -75,16 +75,7 @@ img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
-/* Skal eg lage en egen id for å plassere bilde på informasjon riktig? */
-#bildeinformasjon {  /*er det en bedre måte å løse dette for å få bildet med litt rom til margin. 
-  Fikk ikke til å plassere det på toppen */
-  flex: 1;
-  margin: 2em;
-}
-.bilderefleksjoner { /* Er det en bedre måte å ordne dette? */
-flex: 1;
-text-align: center;
-} 
+
 .tekstboks {
   padding: 20px;
   background-color: white;
@@ -161,7 +152,7 @@ text-align: center;
   grid-template-rows: 1.5rem 1.5rem 1.5rem;
   grid-template-columns: 10rem 10rem;
   grid-column-gap: 0;
-  grid-row-gap: 0.7rem;
+  grid-row-gap: 1rem;
   justify-content: center;
   padding-top: 1.4rem;
 }
