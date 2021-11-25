@@ -1,63 +1,50 @@
 /* Generelt */
-
 html {
   background-color: #333;
   text-align: center;      /* Foreslår denne for å gjøre koden enklere */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
-
 body {
   margin: 0;  /* Fungerer ikke på samme måte om den legges under html */
 }
-
 h1 {
   font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
   color: white;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
 }
-
 h2 {
   font-size: 2em;
 }
-
 p {
   line-height: 2.4em;
   margin: 3em;
 }
-
 a {
   color: #2969FF
 }
-
 a:visited {
 color: #E42121
 }
-
 a:hover{
 color: #E42121;
 background-color: rgb(226, 225, 225);
 boarder: 1em;
-
 }
 /* Header */        /* Endret topnav til headerContainer */
-
 .headerContainer {
   overflow: hidden;
   background-color: #333;
   position: relative;
 }
-
 .headerContainer #myLinks {
   display: none;
 }
-
 .hoppKnapp {
   width: fit-content;
   border: 1px white solid;
 }
-
 .headerContainer a {
   color: white;
   padding: 14px 16px;
@@ -65,7 +52,6 @@ boarder: 1em;
   font-size: 1.6em;
   display: block;
 }
-
 .headerContainer a.icon {
   background: lightsalmon;
   display: block;
@@ -73,14 +59,11 @@ boarder: 1em;
   right: 0;
   top: 0;
 }
-
 .headerContainer a:hover {
   background-color: #ddd;
   color: black;
 }
-
 /* Main */          /* Endret container til mainContainer */
-
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -88,52 +71,40 @@ boarder: 1em;
   height: 100%;
   background-color: white;
 }
-
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
-
 /* Skal eg lage en egen id for å plassere bilde på informasjon riktig? */
-
 #bildeinformasjon {  /*er det en bedre måte å løse dette for å få bildet med litt rom til margin. 
   Fikk ikke til å plassere det på toppen */
   text-align: center;
   flex: 1;
   margin: 2em;
 }
-  
 .bilderefleksjoner { /* Er det en bedre måte å ordne dette? */
 flex: 1;
 text-align: center;
 } 
-
-
 .tekstboks {
   padding: 20px;
   background-color: white;
 }
-
 /* Footer */              /* Endret footerBox til footerContainer */
-
 .footerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-  
-  
+} 
 .footerContainer ul {
   color: white;
   align-items: center;
   list-style: none;
   padding-left: 0;
-}
-  
+} 
 .footerContainer h2 {
   color: white;
-}
-  
+} 
 .footerContainer a {
   color: white;
   font-size: 1.1em;
@@ -174,47 +145,34 @@ text-align: center;
   padding-top: 0.5rem;
   font-size: 25px;
 }
-
 @media only screen and (min-width: 700px) {
-
   /* Generelt */
-
 :focus {
   background-color: #D9D8D5;
   color: black!important;
 }
-
   /* Header */
-
 .headerContainer #myLinks {
   display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobil-stor skjerm */
-}
-  
+} 
 .headerContainer #myLinks a {
   width: 100%; /* Knappene fyller hele bredden */
 }
-
 .headerContainer a.icon {
   display: none; /* Fjerner menyknappen på større skjerm */
 }
-
   /* Main */
-
 .mainContainer {
   flex-direction: row;
   align-items: center;
-}
-  
+} 
 .bildeboks, .tekstboks {
   flex: 1;
-}
-  
+}  
   /* Footer */
-    
 .footerContainer {
   flex-direction: row;
 }
-
 .footerBox1, .footerBox2, .footerBox3 {
   flex: 1;
 }
@@ -226,7 +184,6 @@ text-align: center;
   grid-row-gap: 0.7rem;
   justify-content: center;
   padding-top: 1.4rem;
-  
 }
 .sc--0 h2 {
   padding-top: 0;
