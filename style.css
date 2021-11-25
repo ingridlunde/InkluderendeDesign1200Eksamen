@@ -80,8 +80,6 @@ img {
   padding: 20px;
   background-color: white;
 }
-<<<<<<< HEAD
-
 .tekstboks >p {
   text-align: left;
 }
@@ -90,8 +88,7 @@ img {
 margin-left: 3em;
 margin-right: 3em;
 } 
-=======
->>>>>>> parent of 7643fa2 (m)
+
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
