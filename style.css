@@ -71,24 +71,16 @@ background-color: rgb(226, 225, 225);
   height: 100%;
   background-color: white;
 }
-#forsideBildeboks img {
+img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
 
-#forsideBildeboks {
-  flex: 1;
-}
-
-#forsideTekstboks {
+.tekstboks {
   padding: 20px;
   background-color: white;
-  flex: 1;
 }
-
-.tekstboks {
-  background-color: white;
-}
+<<<<<<< HEAD
 
 .tekstboks >p {
   text-align: left;
@@ -98,6 +90,8 @@ background-color: rgb(226, 225, 225);
 margin-left: 3em;
 margin-right: 3em;
 } 
+=======
+>>>>>>> parent of 7643fa2 (m)
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
