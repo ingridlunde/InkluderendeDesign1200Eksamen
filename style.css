@@ -17,7 +17,6 @@ h1 {
 h2 {
   font-size: 2em;
 }
-
 h3 {
   font-size: 1.2em;
 }
@@ -36,7 +35,6 @@ a:hover{
   color: #E42121;
   background-color: rgb(226, 225, 225);
 }
-
 /* Header */        /* Endret topnav til headerContainer */
 .headerContainer {
   overflow: hidden;
@@ -76,17 +74,14 @@ a:hover{
   height: 100%;
   background-color: white;
 }
-
 #postenLink {
   margin-top: 1.5em;
   margin-bottom: 130em;
 }
-
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
-
 #forsideTekst {
   text-align: center;
 }
