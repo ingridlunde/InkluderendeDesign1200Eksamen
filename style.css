@@ -28,14 +28,6 @@ a:visited {
 color: #E42121
 }
 a:hover{
-  Livet som student på OsloMet
-  Hjem
-  Refleksjoner
-  Tilgjengelighet
-  Emneinformasjon
-  Moroside
-  Bilde av en bok
-  
   color: #E42121;
   background-color: rgb(226, 225, 225);
 }
@@ -118,13 +110,6 @@ img {
 } 
 .footerContainer ul {
   color: white;
-  Livet som student på OsloMet
-  Hjem
-  Refleksjoner
-  Tilgjengelighet
-  Emneinformasjon
-  Moroside
-  Bilde av en bok
   
   align-items: center;
   list-style: none;
