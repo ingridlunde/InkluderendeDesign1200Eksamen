@@ -171,7 +171,6 @@ img {
 .bildeboks, .tekstboks {
   flex: 1;
 }  
-
 #postenBilde{
   margin-left: auto;
   margin-right: auto;
@@ -181,6 +180,9 @@ img {
   /* Footer */
 .footerContainer {
   flex-direction: row;
+}
+.footerBox1 {
+  margin-right: 1.5rem;
 }
 .footerBox1, .footerBox2, .footerBox3 {
   flex: 1;
