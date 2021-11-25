@@ -65,6 +65,7 @@ a:hover{
 .headerContainer a:hover {
   background-color: #ddd;
   color: black;
+  text-decoration: underline;
 }
 /* Main */          /* Endret container til mainContainer */
 .mainContainer {
