@@ -71,15 +71,25 @@ boarder: 1em;
   height: 100%;
   background-color: white;
 }
-img {
+#forsideBildeboks img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
 
-.tekstboks {
+#forsideBildeboks {
+  flex: 1;
+}
+
+#forsideTekstboks {
   padding: 20px;
   background-color: white;
+  flex: 1;
 }
+
+.tekstboks {
+  background-color: white;
+}
+
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
