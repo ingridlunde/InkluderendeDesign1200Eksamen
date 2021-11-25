@@ -1,15 +1,15 @@
 /* Generelt */
 html {
   background-color: #333;
-  text-align: center;      /* Foreslår denne for å gjøre koden enklere */
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 body {
-  margin: 0;  /* Fungerer ikke på samme måte om den legges under html */
+  margin: 0;
 }
 h1 {
-  font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
+  font-size: 3em;
   color: rgb(226, 225, 225);
   margin-top: 0.3em;
   margin-bottom: 0.5em;
@@ -23,19 +23,19 @@ h3 {
 p {
   line-height: 2.4em;
   margin: 1.5em 3em 1.5em 3em;
-  font-size: 1em
+  font-size: 1em;
 }
 a {
-  color: #2969ff
+  color: #2969ff;
 }
 a:visited {
-color: #E42121
+  color: #E42121
 }
 a:hover{
   color: #E42121;
   background-color: rgb(226, 225, 225);
 }
-/* Header */        /* Endret topnav til headerContainer */
+/* Header */
 .headerContainer {
   overflow: hidden;
   background-color: #333;
@@ -67,7 +67,7 @@ a:hover{
   color: black;
   text-decoration: underline;
 }
-/* Main */          /* Endret container til mainContainer */
+/* Main */ 
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -80,8 +80,8 @@ a:hover{
   margin-bottom: 130em;
 }
 img {
-  width: 100%;  /* For at bildestørrelse skal bli riktig */
-  display: block; /* Bildet fyller hele div-boksen */
+  width: 100%; 
+  display: block; 
 }
 #frontPageText {
   text-align: center;
@@ -104,7 +104,7 @@ img {
    margin-left: auto;
    margin-right: auto;
  }
-/* Footer */              /* Endret footerBox til footerContainer */
+/* Footer */
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -143,6 +143,8 @@ img {
   padding-top: 0.5rem;
   font-size: 25px;  
 }
+
+
 @media only screen and (min-width: 700px) {
   /* Generelt */
 :focus {
@@ -151,13 +153,13 @@ img {
 }
   /* Header */
 .headerContainer #myLinks {
-  display: flex!important; /* Viser menyknappene på større skjerm, og gjør så menyen ikke blir borte i overgang mobil-stor skjerm */
+  display: flex!important; 
 } 
 .headerContainer #myLinks a {
-  width: 100%; /* Knappene fyller hele bredden */
+  width: 100%; 
 }
 .headerContainer a.icon {
-  display: none; /* Fjerner menyknappen på større skjerm */
+  display: none; 
 }
   /* Main */
 .mainContainer {
