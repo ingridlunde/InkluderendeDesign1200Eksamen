@@ -90,18 +90,13 @@ img {
 #forsideTekst {
   text-align: center;
 }
-
-
-
 .tekstboks {
   padding: 20px;
   background-color: white;
 }
-
 .tekstboks >p {
   text-align: left;
 }
-
 .tekstboks > .bildeboks {
   margin: 0 3em 0 3em;
 }
@@ -124,7 +119,8 @@ img {
   list-style: none;
   padding-left: 0;
 } 
-.footerContainer h2 {
+.footerContainer h3 {
+  font-size: 1.7rem;
   color: white;
 } 
 .footerContainer a {
@@ -135,6 +131,9 @@ img {
   background-color: #ddd;
   color: black;
   text-decoration: none;
+}
+.footerContainer li {
+  margin-top: 1.5rem;
 }
 .footerBox3 {
   display: grid;
