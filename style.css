@@ -19,7 +19,8 @@ h2 {
 }
 p {
   line-height: 2.4em;
-  margin: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 a {
   color: #2969FF
