@@ -72,6 +72,11 @@ a:hover{
   background-color: white;
 }
 
+#postenLink {
+  margin-top: 1.5em;
+  margin-bottom: 130em;
+}
+
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
@@ -95,7 +100,11 @@ img {
 .tekstboks > .bildeboks {
   margin: 0 3em 0 3em;
 }
-
+ .postenLink{
+   display:block;
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+ }
 
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
@@ -158,7 +167,7 @@ img {
   flex: 1;
 }  
 
-#postenbilde{
+#postenBilde{
   margin-left: auto;
   margin-right: auto;
   width: 50em
