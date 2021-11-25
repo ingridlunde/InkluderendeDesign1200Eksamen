@@ -81,9 +81,7 @@ img {
   text-align: center;
 }
 
-#postenbilde{
-  
-}
+
 
 .tekstboks {
   padding: 20px;
@@ -159,6 +157,13 @@ img {
 .bildeboks, .tekstboks {
   flex: 1;
 }  
+
+#postenbilde{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em
+ 
+ }
   /* Footer */
 .footerContainer {
   flex-direction: row;
