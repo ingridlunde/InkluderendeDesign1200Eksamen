@@ -28,6 +28,14 @@ a:visited {
 color: #E42121
 }
 a:hover{
+  Livet som student på OsloMet
+  Hjem
+  Refleksjoner
+  Tilgjengelighet
+  Emneinformasjon
+  Moroside
+  Bilde av en bok
+  
 color: #E42121;
 background-color: rgb(226, 225, 225);
 boarder: 1em;
@@ -71,6 +79,14 @@ boarder: 1em;
   height: 100%;
   background-color: white;
 }
+Livet som student på OsloMet
+Hjem
+Refleksjoner
+Tilgjengelighet
+Emneinformasjon
+Moroside
+Bilde av en bok
+
 img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
@@ -80,7 +96,15 @@ img {
   padding: 20px;
   background-color: white;
 }
-/* Footer */              /* Endret footerBox til footerContainer */
+/* Footer */             
+Livet som student på OsloMet
+Hjem
+Refleksjoner
+Tilgjengelighet
+Emneinformasjon
+Moroside
+Bilde av en bok
+ /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -88,6 +112,14 @@ img {
 } 
 .footerContainer ul {
   color: white;
+  Livet som student på OsloMet
+  Hjem
+  Refleksjoner
+  Tilgjengelighet
+  Emneinformasjon
+  Moroside
+  Bilde av en bok
+  
   align-items: center;
   list-style: none;
   padding-left: 0;
@@ -115,7 +147,6 @@ img {
   padding-top: 0.5rem;
   font-size: 25px;  
 }
-
 @media only screen and (min-width: 700px) {
   /* Generelt */
 :focus {
