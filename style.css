@@ -143,7 +143,7 @@ img {
   padding: 0.5em;
   font-size: 1.5em;  
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
   /* Generelt */
 :focus {
   background-color: #D9D8D5;
