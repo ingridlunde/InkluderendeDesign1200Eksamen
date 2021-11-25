@@ -78,7 +78,6 @@ img {
 /* Skal eg lage en egen id for å plassere bilde på informasjon riktig? */
 #bildeinformasjon {  /*er det en bedre måte å løse dette for å få bildet med litt rom til margin. 
   Fikk ikke til å plassere det på toppen */
-  text-align: center;
   flex: 1;
   margin: 2em;
 }
