@@ -19,7 +19,7 @@ h2 {
 }
 p {
   line-height: 2.4em;
-  margin: 3em;
+  margin: 1.5em 3em 1.5em 3em;
 }
 a {
   color: #2969FF
@@ -36,10 +36,10 @@ a:hover{
   Moroside
   Bilde av en bok
   
-color: #E42121;
-background-color: rgb(226, 225, 225);
-boarder: 1em;
+  color: #E42121;
+  background-color: rgb(226, 225, 225);
 }
+
 /* Header */        /* Endret topnav til headerContainer */
 .headerContainer {
   overflow: hidden;
@@ -92,19 +92,25 @@ img {
   display: block; /* Bildet fyller hele div-boksen */
 }
 
+#forsideTekst {
+  text-align: center;
+}
+
 .tekstboks {
   padding: 20px;
   background-color: white;
 }
-/* Footer */             
-Livet som student på OsloMet
-Hjem
-Refleksjoner
-Tilgjengelighet
-Emneinformasjon
-Moroside
-Bilde av en bok
- /* Endret footerBox til footerContainer */
+
+.tekstboks >p {
+  text-align: left;
+}
+
+.tekstboks > .bildeboks {
+  margin: 0 3em 0 3em;
+}
+
+
+/* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
   flex-direction: column;

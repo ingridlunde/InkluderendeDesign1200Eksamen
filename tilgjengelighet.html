@@ -19,7 +19,7 @@
                     <a href="index.html">Hjem</a>
                     <a href="refleksjoner.html">Refleksjoner</a>
                     <a href="tilgjengelighet.html">Tilgjengelighet</a>
-                    <a href="informasjon.html">Emneinformasjon</a>
+                    <a href="emneinformasjon.html">Emneinformasjon</a>
                     <a href="moroside.html">Moroside</a>
                 </div>
             </div>
@@ -27,38 +27,31 @@
         <main id="main">
             <div class="mainContainer">
                 <div class="tekstboks">
-                    <p> <strong>Siden oppgaven handler om å gjøre nettsiden vår mest mulig tilgjengelig for alle</strong>, er det det vi har hatt mest fokus på.
-                        Fra starten ønsket vi å lage en <em>ren og enkel nettside</em>, med høy kontrast mellom skrift og bakgrunn. 
-                        Derfor ble fargevalgene i hovedsak <em>svart og hvitt</em>.
-                        Teksttypen vi valgte ble <em>«sans-serif»</em> da vi synes den var mest lettlest. 
-                        Vi valgte relativt <strong>stor</strong> skriftstørrelse for å bedre leseligheten, men valgte å bruke «em»-størrelser 
-                        slik at brukene selv kan bestemme hvor stor skriften skal være. 
+                    <h2> Tilgjengelighet</h2>
+                    <h3>Inkluderende Design</h3>
+                    <p> I denne oppgaven har vår prioritet vært å utforme en nettside med et inkluderende design for alle. 
+                        Dette er noe vi har hatt som hovedprioritet i valg av farge og utforming både på mobilutgaven og nettsiden. 
+                        Vårt mål gjennom oppgaven var å tilfredsstille kravene til Web Content Accessibility guidelines (WCAG 2.1) sine retningslinjer for å få AA sertifisering.  
+                        Vi har lagt ved noen av bilde fra testene vi utførte for å sjekke om vi tilfredsstilte kravene (Legg link til WCG2.1).
+                    </p> 
+                    <p> Vi begynte med å utforme mobilsiden der vårt fokus var på høy kontrast mellom skrift og bakgrunn, derfor falt valget på svart, grått og hvitt. 
+                        Vi valgte et enkelt design som vi mener er lett å navigere. Vi lagde menyboksene slik at de dekket hele skjermen på mobil for å gjøre det lettere å treffe riktig knapp. 
                     </p>
-                    <p> Vi begynte med å skrive html-koden til forsiden, deretter brukte vi css til å lage en layout vi var fornøyd med. 
-                        Så overførte vi i hovedsak samme html og css-kode til de andre sidene.
-                        HTML-koden er bygd opp av «header, main og footer» for å gjøre det oversiktlig.
+                    <p>Kontrastene i fargene på nettsiden vår var 12:63:1 på bakgrunn mot tekst, 9:3:1 på meny med grå bakgrunn og fargen på linkene; både «active» og «visited» var over 4.55.  
+                        Det er i tråd med AA retningslinjene om en kontrast på minimum 4.5.1. For å bedre navigasjonen har vi lagt til et focus-element og et hover-element der bakgrunnsfarge og skrift inverteres. 
+                        Dette gjorde vi for at det skal være enklere å se hvilken menyknapper og linker man er i ferd med å trykke på (WebAim, 2021).    
                     </p>
-                    <p> <em>Layouten vår består av bokser, der hovedregelen er at boksene legger seg under hverandre på mobil, 
-                        mens de står ved siden av hverandre på større skjerm.</em>
-                        I tillegg ønsket vi at den første knappen på nettsiden skulle være «Hopp til hovedinnhold», 
-                        og at det nederst på siden skulle være en knapp der man kunne hoppe opp til toppen.
+                    <p> Vi gjorde også om «lang»-attributten til norsk slik at det skal være bedre for skjermlesere og søkemotorer. 
+                        Teksttypen vi valgte ble «sans-serif» da vi synes den var mest lettlest. Vi valgte relativt stor skriftstørrelse for å bedre leseligheten, men valgte å bruke «em»-størrelser slik at brukene selv kan bestemme hvor stor skriften skal være. 
+                        Vi har brukertestet å skalere opp teksten for å sjekke om nettsiden har samme funksjoner. I tekstene våre har vi lagt til margin rundt tekst med linjeavstand for å gjøre nettsiden lettere å lese (WebAim, 2020). 
                     </p>
-                    <p> <em>Vi lagde mobilversjonen først</em>, og ønsket oss da en menyknapp for å få frem hovedmenyen, 
-                        slik at header ikke tok opp for mye av skjermen på mobil. Denne menyen kan man også bruke med kun tastatur.
+                    <p> Vi har testet tastaturnavigasjonen med tab og lagt en «hopp til innhold» knapp i venstre hjørne. I footeren har vi lagt inn menyene på nytt slik at brukeren lettere kan navigere seg videre eller trykke på hopp til topp for å komme øverst på siden. 
+                        Vi har lagt til beskrivende element til bilder og lenkene på nettsiden. Det er for å kunne beskrive til brukeren hva som er på bildet.  
                     </p>
-                    <p> For å <em>bedre navigasjonen</em> har vi lagt til et focus-element og et hover-element der bakgrunnsfarge
-                        og skrift inverteres. Dette gjorde vi for at det skal være enklere å se hvilken knapp man er i ferd med å trykke på.
-                        Da vi var fornøyde med mobilversjonen, gikk vi videre til å lage nettsiden for full skjerm.
-                    </p>
-                    <p> Etter vi var ferdige med dette gikk vi gjennom css-koden og forsøkte å rydde opp gjenglemte- og doble tagger. 
-                        I tillegg rokerte vi om på css-koden slik at header var øverst, deretter main og til slutt footer. 
-                        Koden for mobilversjonen er skrevet først og koden for større skjermer står til slutt. 
-                        Vi endret også noen av klassenavnene for at de skulle være mest mulig selvforklarende, 
-                        slik at det blir enklere for andre å sette seg inn i koden.
+                    <p> Når vi var ferdig med styling av nettsiden sjekket vi den i «Wave extension» først. Der fikk vi en error på «broken link». 
+                        Vi rettet oppi dette og sjekket deretter sjekklisten til Webaim på hvordan vi kunne brukerteste skalering og tastaturnavigering for å være sikker på at den tilfredstilte kravene våre (WebAim, 2020). 
                     </p>                        
-                    <p> Da vi var fornøyde med hele layouten <em>validerte vi html-koden</em>. Her fant vi noen små feil, for eksempel tagger som var lukket to ganger. 
-                        Vi gjorde også om «lang»-attributten til norsk for at det skal være <em><strong>bedre</strong> for skjermlesere og søkemotorer</em>.
-                        Deretter validerte vi css-koden uten feil.
+                    <p> Referanser
                     </p>
                 </div>
             </div>
@@ -85,7 +78,7 @@
                     <div class="sc--1"><a href="index.html">Hjem</a></div>
                     <div class="sc--2"><a href="refleksjoner.html">Refleksjoner</a></div>
                     <div class="sc--3"><a href="tilgjengelighet.html">Tilgjengelighet</a></div>
-                    <div class="sc--4"><a href="informasjon.html">Emneinformasjon</a></div>
+                    <div class="sc--4"><a href="emneinformasjon.html">Emneinformasjon</a></div>
                     <div class="sc--5"><a href="moroside.html">Moroside</a></div>
                     <div class="sc--6"><a href="#Top">Til toppen</a></div>
                 </div>
