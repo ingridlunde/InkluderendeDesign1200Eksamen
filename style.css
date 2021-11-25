@@ -32,6 +32,7 @@ color: #E42121;
 background-color: rgb(226, 225, 225);
 boarder: 1em;
 }
+
 /* Header */        /* Endret topnav til headerContainer */
 .headerContainer {
   overflow: hidden;
@@ -80,6 +81,15 @@ img {
   padding: 20px;
   background-color: white;
 }
+
+.tekstboks >p {
+  text-align: left;
+}
+
+.tekstboks >img {
+margin-left: 3em;
+margin-right: 3em;
+} 
 /* Footer */              /* Endret footerBox til footerContainer */
 .footerContainer {
   display: flex;
