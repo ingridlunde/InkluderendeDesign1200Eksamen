@@ -152,10 +152,16 @@ h3{
 }
 </style>
 <body>
+	<!--innpakning: inneholder 3 hoved div som er stylet med flexbox-->
 	<div class="innpakning">
+
+		<!--1/3 del av nettsiden inneholder overskriften-->
 		<div class="topptekst">
 			<h1 id="center"><strong>10^3 fryd</strong></h1>
 	    </div>
+
+
+		<!--2/3 av nettsiden inneholder meny og innholdet på row-->
 	    <div class="menyInnhold">
 	    	<div class="meny">
 	    	<ul>
@@ -171,45 +177,51 @@ h3{
                 <li><a href="https://github.com">GitHub</a></li>
 	    	</ul>
 	        </div>
+
 	        <div class="innhold">
-			<h2 class="w3-center"><strong>Velkommen!</strong></h2>
-			<div class="w3-content w3-display-container">
-				<div  class="float-child">
-					<img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde2.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde3.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde4.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde5.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde6.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde7.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde8.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde9.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde10.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde11.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde12.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde13.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde14.jpg" style="width:100%">
-					<img class="mySlides" src="bilder/bilde15.jpg" style="width:100%">
-				    <img class="mySlides" src="bilder/bilde16.jpg" style="width:100%">
-					<button class="w3-button w3-#fe0f9f" onclick="plusDivs(-1)">&#10094;</button>
-					<button class="w3-button w3-#fe0f9f" onclick="plusDivs(1)">&#10095;</button>
+				<h2 class="w3-center"><strong>Velkommen!</strong></h2>
+				<div class="w3-content w3-display-container">
+					<div  class="float-child">
+						<img class="mySlides" src="bilder/bilde1.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde2.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde3.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde4.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde5.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde6.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde7.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde8.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde9.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde10.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde11.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde12.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde13.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde14.jpg" style="width:100%">
+						<img class="mySlides" src="bilder/bilde15.jpg" style="width:100%">
+					    <img class="mySlides" src="bilder/bilde16.jpg" style="width:100%">
+						<button class="w3-button w3-#fe0f9f" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-#fe0f9f" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<div class="float-child">
+						<video width="100%" height="100%" controls>
+							<source src="bilder/video.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
 				</div>
-				<div class="float-child">
-					<video width="100%" height="100%" controls>
-						<source src="bilder/video.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
+
+				<div class="beskrivelse"> 
+					<h3><em>Besøk oss i 2022!</em></h3>
+					<p>Vi er desverre stengt for i år! Besøk oss gjerne i <strong>2022</strong></p>
+					<p>Vi holder oppe fra slutten av april til slutten av oktober. Skjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider" class="links">her</a></p>
+					<p>Du kan kjøpe enkeltbilett, sessongkort og biletter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter" class="links">her</a></p>
+					<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS" class="links">her</a></p>
 				</div>
+
 			</div>
-			<div class="beskrivelse"> 
-				<h3><em>Besøk oss i 2022!</em></h3>
-				<p>Vi er desverre stengt for i år! Besøk oss gjerne i <strong>2022</strong></p>
-				<p>Vi holder oppe fra slutten av april til slutten av oktober. Skjekk ut mer detaljerte åpningstider <a href="https://www.tusenfryd.no/apningstider-og-priser/apningstider" class="links">her</a></p>
-				<p>Du kan kjøpe enkeltbilett, sessongkort og biletter for grupper skoler og bedrifter <a href="https://www.tusenfryd.no/kjop-billetter" class="links">her</a></p>
-				<p>Besøk gjerne nettsiden vår for mer nyttig informasjon om parken og få svar på det du måtte lure på. Gjerne stikk innom <strong>YouTube</strong> siden vår <a href="https://www.youtube.com/user/TusenFrydAS" class="links">her</a></p>
-			</div>
-			</div>		
+
         </div>
+
+
 		<div class="bunntekst">
 			<ul>
 				<li>s362069</li>
@@ -220,7 +232,8 @@ h3{
 				<li>s362051</li>
 			</ul>
         </div>
-	</div> <!--innpakning-->
+		
+	</div> 
 </body>
 <script>
 	var slideIndex = 1;
