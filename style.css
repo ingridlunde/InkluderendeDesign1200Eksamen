@@ -1,4 +1,4 @@
-/* Generelt */
+/* General */
 html {
   background-color: #333;
   text-align: center;
@@ -144,7 +144,7 @@ img {
   font-size: 1.5em;  
 }
 @media only screen and (min-width: 900px) {
-  /* Generelt */
+  /* Genereral */
 :focus {
   background-color: #D9D8D5;
   color: black!important;
@@ -176,11 +176,7 @@ img {
 .footerContainer {
   flex-direction: row;
 }
-/*
-.footerBox1 {
-  margin-right: 1.5em;
-}
-*/
+
 .footerBox1, .footerBox2, .footerBox3 {
   flex: 1;
 }
@@ -191,10 +187,8 @@ img {
   grid-column-gap: 0;
   grid-row-gap: 1em;
   justify-content: center;
-  /* padding-top: 1.4em; */
 }
 .sc--1 a, .sc--2 a, .sc--3 a, .sc--4 a, .sc--5 a, .sc--6 a {
-  /* padding-top: 0; */
   font-size: 1.2em; 
 }
 }
