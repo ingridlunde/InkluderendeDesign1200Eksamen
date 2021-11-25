@@ -120,30 +120,11 @@ text-align: center;
   padding-top: 2rem;
   grid-row-gap: 2rem;
 }
-.sc--1 a {
+.sc--1 a, .sc--2 a, .sc--3 a, .sc--4 a, .sc--5 a, .sc--6 a {
   padding-top: 0.5rem;
   font-size: 25px;  
 }
-.sc--2 a {
-  padding-top: 0.5rem;
-  font-size: 25px; 
-}
-.sc--3 a {
-  padding-top: 0.5rem;
-  font-size: 25px; 
-}
-.sc--4 a {
-  padding-top: 0.5rem;
-  font-size: 25px; 
-}
-.sc--5 a {
-  padding-top: 0.5rem;
-  font-size: 25px; 
-}
-.sc--6 a {
-  padding-top: 0.5rem;
-  font-size: 25px;
-}
+
 @media only screen and (min-width: 700px) {
   /* Generelt */
 :focus {
@@ -184,28 +165,8 @@ text-align: center;
   justify-content: center;
   padding-top: 1.4rem;
 }
-.sc--1 a {
+.sc--1 a, .sc--2 a, .sc--3 a, .sc--4 a, .sc--5 a, .sc--6 a {
   padding-top: 0;
   font-size: 1.2rem; 
-}
-.sc--2 a {
-  padding-top: 0;
-  font-size: 1.2rem; 
-}
-.sc--3 a {
-  padding-top: 0;
-  font-size: 1.2rem; 
-}
-.sc--4 a {
-  padding-top: 0;
-  font-size: 1.2rem; 
-}
-.sc--5 a {
-  padding-top: 0;
-  font-size: 1.2rem; 
-}
-.sc--6 a {
-  padding-top: 0;
-  font-size: 1.2rem;
 }
 }
