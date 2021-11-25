@@ -180,7 +180,7 @@ text-align: center;
   grid-template-rows: 1.5rem 1.5rem 1.5rem;
   grid-template-columns: 10rem 10rem;
   grid-column-gap: 0;
-  grid-row-gap: 0.7rem;
+  grid-row-gap: 1rem;
   justify-content: center;
   padding-top: 1.4rem;
 }
