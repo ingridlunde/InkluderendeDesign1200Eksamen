@@ -54,6 +54,7 @@ a:hover{
   text-decoration: none;
   font-size: 1.6em;
   display: block;
+  border: 1px white solid;
 }
 .headerContainer a.icon {
   background: rgb(255, 160, 122);
