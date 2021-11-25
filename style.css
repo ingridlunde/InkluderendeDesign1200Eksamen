@@ -109,9 +109,36 @@ img {
   color: black;
   text-decoration: none;
 }
-.footerBox3 li {
-  padding-top: 1em;
-  font-size: 20px;
+.footerBox3 {
+  display: grid;
+  grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
+  grid-template-columns: 15rem;
+  margin-top: 0;
+  grid-row-gap: 1rem;
+}
+.sc--1 a {
+  padding-top: 0.5rem;
+  font-size: 25px;  
+}
+.sc--2 a {
+  padding-top: 0.5rem;
+  font-size: 25px; 
+}
+.sc--3 a {
+  padding-top: 0.5rem;
+  font-size: 25px; 
+}
+.sc--4 a {
+  padding-top: 0.5rem;
+  font-size: 25px; 
+}
+.sc--5 a {
+  padding-top: 0.5rem;
+  font-size: 25px; 
+}
+.sc--6 a {
+  padding-top: 0.5rem;
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -157,5 +184,45 @@ img {
 .footerBox1, .footerBox2, .footerBox3 {
   flex: 1;
 }
-
+.footerBox3 {
+  display: grid;
+  grid-template-rows: 4.5rem 1.5rem 1.5rem 1.5rem;
+  grid-template-columns: 10rem 10rem;
+  grid-column-gap: 0;
+  grid-row-gap: 0.7rem;
+  justify-content: center;
+  padding-top: 1.4rem;
+  
+}
+.sc--0 h2 {
+  padding-top: 0;
+  font-size: 2em;
+}
+.sc--00 {
+  font-size: 0;
+}
+.sc--1 a {
+  padding-top: 0;
+  font-size: 1.2rem; 
+}
+.sc--2 a {
+  padding-top: 0;
+  font-size: 1.2rem; 
+}
+.sc--3 a {
+  padding-top: 0;
+  font-size: 1.2rem; 
+}
+.sc--4 a {
+  padding-top: 0;
+  font-size: 1.2rem; 
+}
+.sc--5 a {
+  padding-top: 0;
+  font-size: 1.2rem; 
+}
+.sc--6 a {
+  padding-top: 0;
+  font-size: 1.2rem;
+}
 }
