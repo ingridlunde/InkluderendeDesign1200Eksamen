@@ -44,7 +44,7 @@ a:hover{
 .headerContainer #myLinks {
   display: none;
 }
-.hoppKnapp {
+.skipToMain {
   width: fit-content;
   border: 1px rgb(226, 225, 225) solid;
 }
@@ -83,17 +83,17 @@ img {
   width: 100%;  /* For at bildestørrelse skal bli riktig */
   display: block; /* Bildet fyller hele div-boksen */
 }
-#forsideTekst {
+#frontPageText {
   text-align: center;
 }
-.tekstboks {
+.textBox {
   padding: 20px;
   background-color: #ffffff;
 }
-.tekstboks >p {
+.textBox >p {
   text-align: left;
 }
-.tekstboks > .bildeboks {
+.textBox > .bildeboks {
   margin: 0 3em 0 3em;
 }
  .postenLink{
@@ -164,10 +164,10 @@ img {
   flex-direction: row;
   align-items: center;
 } 
-.bildeboks, .tekstboks {
+.pictureBox, .textBox {
   flex: 1;
 }  
-#postenBilde{
+#postenPicture{
   margin-left: auto;
   margin-right: auto;
   width: 50em
