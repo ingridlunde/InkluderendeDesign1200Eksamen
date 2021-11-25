@@ -10,7 +10,7 @@ body {
 }
 h1 {
   font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
-  color: rgb(226, 225, 225);
+  color: #ffffff;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
 }
@@ -49,7 +49,7 @@ a:hover{
   border: 1px rgb(226, 225, 225) solid;
 }
 .headerContainer a {
-  color: rgb(226, 225, 225);
+  color: #ffffff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1.6em;
