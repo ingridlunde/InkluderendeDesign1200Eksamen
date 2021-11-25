@@ -9,22 +9,22 @@ body {
   margin: 0;  /* Fungerer ikke på samme måte om den legges under html */
 }
 h1 {
-  font-size: 4.3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
+  font-size: 3em;     /* Tror man bør bruke em i stedet for px for accessibility, slik at brukeren kan endre størrelse selv*/
   color: white;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
 }
 h2 {
-  font-size: 3.3em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 2.3em;
+  font-size: 1.2em;
 }
 p {
   line-height: 2.4em;
   margin: 1.5em 3em 1.5em 3em;
-  font-size: 1.3em
+  font-size: 1em
 }
 a {
   color: #2969FF
